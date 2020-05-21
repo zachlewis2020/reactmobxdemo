@@ -1,0 +1,11 @@
+
+cd web
+export SKIP_PREFLIGHT_CHECK=true
+npm install
+npm run build
+rm -r ../src/main/resources/static
+mv build ../src/main/resources/static
+cd ..
+gradle clean
+gradle bootJar
+java -Dserver.port=8080 -jar build/libs/lesson_01-0.0.1-SNAPSHOT.jar
