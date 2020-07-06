@@ -1,0 +1,11 @@
+okta:
+  oauth2:
+    issuer: [REPLACE With your Okta Issuer Base URL ]/oauth2/default
+    client-id: [REPLACE With your Okta Client ID ]
+    client-secret: [REPLACE With your Okta Client Secret ]
+provider:
+  otka:
+    authorization-uri: [REPLACE With your Okta Issuer BASE URL ]/oauth2/default/v1/authorize
+    token-uri: https://oauth2/default/v1/token
+    user-info-uri: [REPLACE With your Okta Issuer BASE URL ]/oauth2/default/default/v1/userinfo
+    jwk-set-uri: [REPLACE With your Okta Issuer BASE URL ]/oauth2/default/default/v1/keys

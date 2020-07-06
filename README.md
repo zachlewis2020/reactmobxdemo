@@ -1,27 +1,11 @@
-# React MobX Test
+# Simple Demo React App with MobX App using Okta Login
 
-Beginners - Quick Start Tutorial on Full Stack Development with Java SpringBoot and ReactJS
+This demo React and MobX app has a default setup for Okta Login.
 
-We will cover:
+First: Register a Trial Okta Account at:  https://developer.okta.com/signup/
 
-1.) What is Full Stact development.  Database (Data Model), Backend (Business Process), Frontend (Web/Phone App)
-
-2.) How to setup a free development environment with all the tools needed.
-
-3.) How to build a simple started app.
+See the PDF with details on the configuration process.
 
 
-Demo:
 
- To run the initial demo open a console terminal change directory to the root of this app and type:
-
- . ./build.run
-
-NOTE: This will build the reactjs code and compile the Java code and deploy the app on http://localhost:8080.
-
-The password for the user login will show up in the consolve scroll up until you see: 
-
-AutoConfiguration : 
-
-Using generated security password: <Copy this password to login as user>
 
